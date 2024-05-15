@@ -1,0 +1,238 @@
+$background-color: rgb(234, 233, 233);
+$border-color: hsl(0, 0%, 80%);
+$button-color: #FF4D4D;
+$button-hover-color: #FF4D4D;
+$font-weight: 500;
+$footer-bg-color: #d8d8d8;
+$footer-text-color: rgb(84, 84, 84);
+
+@mixin button-style {
+    background-color: $button-color;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  @mixin flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    margin: 0;
+    font-weight: $font-weight;
+    background-color: $background-color;
+  }
+  
+  .container {
+    @include flex-container;
+  }
+  
+  header {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0.5%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $border-color;
+  }
+  
+  .dropdown {
+    flex: 1 1 100%;
+    position: relative;
+    transform: translateY(-100%);
+    transition: 0.3s ease-in-out;
+    border: 1px solid;
+    background-color: white;
+    flex-flow: row wrap;
+    z-index: 1000;
+    display: none;
+  }
+  
+  .open {
+    transform: translateY(0);
+    display: flex;
+  }
+  
+  .dropdown.cat,
+  .dropdown.smart,
+  .dropdown.apple {
+    flex: 1 1 30%;
+    margin-left: 1%;
+  }
+  
+  .dropdown p {
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+  
+  .dropdown button {
+    @include button-style;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    background-color: rgb(234, 234, 234);
+    border: 1px solid $border-color;
+    cursor: pointer;
+    color: rgb(84, 84, 84);
+  }
+  
+  .dropdown button:hover {
+    color: $button-hover-color;
+    border-left: 5px solid $button-hover-color;
+  }
+  
+  header svg {
+    flex: 0 0 25%;
+    margin-top: 0.1%;
+    margin-left: 2%;
+  }
+  
+  header span {
+    margin-left: 1%;
+    margin-top: 0.5%;
+  }
+  
+  header button {
+    @include button-style;
+    height: 50px;
+    width: 150px;
+    margin-left: 2%;
+    margin-top: 0.1%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+  }
+  
+  .left {
+    flex: 1 1 30%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .left img {
+    flex: 0 0 70%;
+    width: 50%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+  }
+  
+  .left span:nth-child(2) {
+    flex: 1 1 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+  }
+  
+  .left.soc {
+    margin-top: 1%;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+  }
+  
+  .soc img {
+    flex: 0 0 5%;
+    width: 5%;
+    margin-right: 1%;
+  }
+  
+  .right {
+    flex: 1 1 50%;
+    display: flex;
+  }
+  
+  .right.for-user,
+  .right.popular,
+  .right.team {
+    flex: 1 1 20%;
+    text-align: left;
+    margin-left: 1%;
+  }
+  
+  .right p {
+    color: black;
+  }
+  
+  .footer.copy {
+    text-align: left;
+    flex: 1 1 100%;
+    margin-left: 5%;
+  }
+  
+  .ham {
+    display: none;
+  }
+  
+  @media (max-width: 480px) {
+   .container {
+      flex-flow: column wrap;
+    }
+  
+    header {
+      flex: 1 1 100%;
+      width: 100%;
+    }
+  
+    header button {
+      display: none;
+    }
+  
+    header svg {
+      flex: 0 0 60%;
+      width: 30%;
+    }
+  
+    header span {
+      flex: 1 1 20%;
+    }
+  
+   .ham {
+      display: block;
+      width: 50px;
+      margin-top: 3%;
+      background-image: url(pics/menu-svgrepo-com.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 1000px) {
+    header button {
+      display: none;
+    }
+  
+    header.ham {
+      display: block;
+      width: 50px;
+      margin-top: 1%;
+      background-image: url(pics/menu-svgrepo-com.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  
+    header svg {
+      flex: 0 0 60%;
+      width: 30%;
+    }
+  
+    header span {
+      flex: 1 1 20%;
+    }
+  }
+    

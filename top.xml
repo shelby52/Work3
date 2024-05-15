@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <good>
+        <top>Топ-1</top>
+        <name>Apple iPhone 15 Pro</name>
+        <img>pics/top1.png</img>
+        <price>500BYN</price>
+    </good>
+    <good>
+        <top>Топ-2</top>
+        <name>Apple iPhone 15</name>
+        <img>pics/top2.png</img>
+        <price>500BYN</price>
+    </good>
+    <good>
+        <top>Топ-3</top>
+        <name>Apple iPhone 14</name>
+        <img>pics/top3.png</img>
+        <price>450BYN</price>
+    </good>
+    <good>
+        <top>Топ-4</top>
+        <name>Apple iPhone 13</name>
+        <img>pics/top4.png</img>
+        <price>400BYN</price>
+    </good>
+    <good>
+        <top>Топ-5</top>
+        <name>Apple iPhone SE</name>
+        <img>pics/top5.png</img>
+        <price>400BYN</price>
+    </good>
+    <good>
+        <top>Топ-6</top>
+        <name>Google Pixel 8 Pro</name>
+        <img>pics/top6.png</img>
+        <price>600BYN</price>
+    </good>
+    <good>
+        <top>Топ-7</top>
+        <name>Google Pixel 8</name>
+        <img>pics/top7.png</img>
+        <price>550BYN</price>
+    </good>
+    <good>
+        <top>Топ-8</top>
+        <name>Google Pixel 8a</name>
+        <img>pics/top8.png</img>
+        <price>500BYN</price>
+    </good>
+    <good>
+        <top>Топ-9</top>
+        <name>Samsung Galaxy S24 Ultra</name>
+        <img>pics/top9.webp</img>
+        <price>700BYN</price>
+    </good>
+    <good>
+        <top>Топ-10</top>
+        <name>Samsung Galaxy S23 FE</name>
+        <img>pics/top10.webp</img>
+        <price>600BYN</price>
+    </good>
+</data>

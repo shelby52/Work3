@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424.73 56.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 21px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-7" x=".5" y=".5" width="211.86" height="55.93"/>
+  <rect class="cls-6" x="212.36" y=".5" width="211.86" height="55.93"/>
+  <text class="cls-2" transform="translate(75.12 33.59)"><tspan class="cls-5" x="0" y="0">M</tspan><tspan x="17.01" y="0">obil</tspan></text>
+  <text class="cls-1" transform="translate(297.04 33.59)"><tspan class="cls-8" x="0" y="0">W</tspan><tspan class="cls-3" x="17.07" y="0">o</tspan><tspan class="cls-4" x="28.6" y="0">r</tspan><tspan x="35.55" y="0">ld</tspan></text>
+</svg>

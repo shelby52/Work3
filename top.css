@@ -1,0 +1,88 @@
+.goods{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3%;
+}
+.good-div{
+    flex: 1 1 40%;
+    border:#FF4D4D 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.good-div:nth-child(2n+1){
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.good-div:nth-child(2n+2){
+    margin-right: 2%;
+}
+.good-div p:first-child{
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 20pt;
+}
+.good-div p:nth-child(2){
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 18pt;
+}
+.good-div img{
+    flex:0 0 50%;
+    width: 500px;
+    height: 400px;
+    border: 1px solid;
+}
+.good-div p:nth-child(4){
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 15pt;
+}
+.good-div button{
+    height: 50px;
+    width: 200px;
+    margin-bottom: 3%;
+    background-color: #FF4D4D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+@media(max-width:480px){
+    .goods{
+        flex-flow: column wrap;
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    .good-div{
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    .good-div:nth-child(2n+1){
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .good-div:nth-child(2n+2){
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .good-div img{
+        flex:0 0 50%;
+        width: 350px;
+        height: 250px;
+    }
+}
+@media(min-width:481px) and (max-width:1000px){
+    .good-div:nth-child(2n+1){
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .good-div:nth-child(2n+2){
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}

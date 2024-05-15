@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <good>
+        <name>Apple Iphone 15</name>
+        <img>pics/top1.png</img>
+        <price>2500BYN</price>
+    </good>
+    <good>
+        <name>Apple Iphone 14</name>
+        <img>pics/top2.png</img>
+        <price>2000BYN</price>
+    </good>
+    <good>
+        <name>Apple Iphone 13</name>
+        <img>pics/top3.png</img>
+        <price>1500BYN</price>
+    </good>
+    <good>
+        <name>Apple Iphone 12</name>
+        <img>pics/top4.png</img>
+        <price>1000BYN</price>
+    </good>
+    <good>
+        <name>Apple Iphone SE</name>
+        <img>pics/top5.png</img>
+        <price>500BYN</price>
+    </good>
+    <good>
+        <name>Samsung S24 Ultra</name>
+        <img>pics/top9.webp</img>
+        <price>2000BYN</price>
+    </good>
+    <good>
+        <name>Xiaomi 14 Ultra</name>
+        <img>pics/xia1.webp</img>
+        <price>1500BYN</price>
+    </good>
+    <good>
+        <name>Xiaomi 13 T</name>
+        <img>pics/xia2.webp</img>
+        <price>500BYN</price>
+    </good>
+    <good>
+        <name>Xiaomi 14</name>
+        <img>pics/xia3.webp</img>
+        <price>1000BYN</price>
+    </good>
+
+    <good>
+        <name>Apple Iphone 13</name>
+        <img>pics/catalog-removebg-preview.png</img>
+        <price>1700BYN</price>
+    </good>
+</data>
